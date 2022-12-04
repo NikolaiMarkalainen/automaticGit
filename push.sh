@@ -19,9 +19,9 @@ checkForRemoteOrigin(){
  echo " "
  echo "Checking for remote directory..."
  sleep 1.5
- $?
- if [ $(git remote show origin)==128 ]; then
-  echo ""
+ if [ $(git remote show origin)==128 ]; 
+  then
+  echo " "
   echo "Add remote origin"
   git remote remove origin
   read remoteOrigin
