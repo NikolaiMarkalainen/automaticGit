@@ -12,7 +12,7 @@ sleep 1
 echo ""
 echo "Pushing to master"
 echo ""
-git push -u origin master
+git push -f origin master
 }
 
 checkForRemoteOrigin(){
