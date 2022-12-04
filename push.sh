@@ -7,7 +7,7 @@ git add -A
 sleep 1
 echo "What is the commit message along the push"
 read commitMessage
-git commit -m $" {commitMessage} "
+git commit -m "$commitMessage"
 sleep 1
 echo ""
 echo "Pushing to master"
